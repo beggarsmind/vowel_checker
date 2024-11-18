@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vowel Checker</title>
+    <!--<link rel="stylesheet" href="styles.css"> -->
+
+    <style>
+      body {
+        font-family: "Playfair Display", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        text-align: center;
+        background: #fff;
+        width: 320px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      input {
+        padding: 10px;
+        font-size: 16px;
+        margin: 10px 0;
+        margin-top: -10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      #result {
+        margin-top: 20px;
+        font-size: 18px;
+
+        text-align: center;
+        background: rgb(138, 187, 230);
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .footer {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vowel Checker</h1>
+      <input type="text" id="nameInput" placeholder="Enter a name" />
+      <button onclick="checkVowels()">Check Vowels</button>
+
+      <p id="result">Results :</p>
+      <footer class="footer">
+        Re-Designed By Ranjithkumar.R (
+        <a href="https://github.com/beggarsmind">Beggar's Mind</a> )
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
